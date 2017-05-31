@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ORB_SLAM/Classes/**/*'
+  s.source_files = 'ORB_SLAM/Classes/**/*', 'opencv2.framework/Headers/**/*'
   
   # s.resource_bundles = {
   #   'ORB_SLAM' => ['ORB_SLAM/Assets/*.png']
@@ -39,4 +39,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.ios.vendored_frameworks = 'opencv2.framework'
+  s.ios.public_header_files  = 'ORB_SLAM/Classes/**/*.h', 'opencv2.framework/Headers/**/*.h', 'opencv2.framework/Headers/**/*.hpp'
 end

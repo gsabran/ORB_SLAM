@@ -7,10 +7,14 @@
 //
 
 import UIKit
+import ORB_SLAM
 
 class ViewController: UIViewController {
+	var wrapper: OpenCVWrapper?
+
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		print("ViewController")
+//		var x: CvVideoCamera? = nil
 	}
 }

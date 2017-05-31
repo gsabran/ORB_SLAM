@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0AC540A6359E59A6E315B242F7679FC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		3204A37CEADC184068260EA77DCD2FE3 /* ORB_SLAM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD89B679CDFCB3C325582864DB0C3166 /* ORB_SLAM-dummy.m */; };
 		33A3E3268CE007101CBE62F17FC46821 /* Pods-ORB_SLAM_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD9245FA01460DEFA00BDBCD656FD41 /* Pods-ORB_SLAM_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B88451918E66A80EDE9F4B3FD7E3986 /* Pods-ORB_SLAM_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3C85382CE4A3C8E27895759AF0068E /* Pods-ORB_SLAM_Example-dummy.m */; };
 		658397DFC5AA9F861BB4BB14F757BFF3 /* Pods-ORB_SLAM_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC039F66223A99A44FEE163E863304D0 /* Pods-ORB_SLAM_Tests-dummy.m */; };
-		96F698B41CA2DC55500FB14AA39567CC /* ORB_SLAM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F66CCD1F11B127EEB9430F60FD17ABC7 /* ORB_SLAM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE4C42FE5C4348809033733E5BECB9AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6B8119C2E3A9F63D087C9D5541F882AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		851712577E26CA39A2161CC42736415C /* ORB_SLAM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C75F0783C7900F38003E4B124D3DF5 /* ORB_SLAM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A88CFFAF872D5E41C14219873044EFB1 /* ORB_SLAM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A8B90C009304548521BA22E0BC9EA1 /* ORB_SLAM-dummy.m */; };
+		E4C49A1155C1587D55957DA254DBB6F2 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = FADFB408DB0F2D6519668AF69BB2A7D9 /* OpenCVWrapper.mm */; };
 		EB0FDC84D9B122B6A765544B6B135457 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F21C8903D958F3C51CDA39A5D3F3BEB3 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2568560BC0B6EF19524C29615AF730 /* ReplaceMe.m */; };
+		F04CE20775ACB142656771D1FCD8195F /* OpenCVWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = FB302E1799DD0F1A954F378392232A44 /* OpenCVWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2A761B915680371ED35BE7BA39C75C9 /* Pods-ORB_SLAM_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16170306B003D1C79B5170F827E1E693 /* Pods-ORB_SLAM_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -24,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E2FB7901A4F08C05D2B8139941651357;
+			remoteGlobalIDString = 0338E71DD90ADC70E7B9229A5AAEEFDB;
 			remoteInfo = ORB_SLAM;
 		};
 /* End PBXContainerItemProxy section */
@@ -34,34 +35,36 @@
 		0A5D592E5CEC4B1333FF3965A614F03F /* Pods-ORB_SLAM_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORB_SLAM_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		16170306B003D1C79B5170F827E1E693 /* Pods-ORB_SLAM_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ORB_SLAM_Tests-umbrella.h"; sourceTree = "<group>"; };
 		187005D651FCF0AE7C80F0BE231FB392 /* Pods-ORB_SLAM_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORB_SLAM_Example-resources.sh"; sourceTree = "<group>"; };
-		267AC8D703FC336EAAF756EE0BD536C9 /* Pods_ORB_SLAM_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ORB_SLAM_Tests.framework; path = "Pods-ORB_SLAM_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F47A57695EC6309EE64B9D291617099 /* Pods_ORB_SLAM_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ORB_SLAM_Example.framework; path = "Pods-ORB_SLAM_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		267AC8D703FC336EAAF756EE0BD536C9 /* Pods_ORB_SLAM_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORB_SLAM_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F47A57695EC6309EE64B9D291617099 /* Pods_ORB_SLAM_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORB_SLAM_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F47B7A43FED36FEA76B3E6DE8DF9691 /* ORB_SLAM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ORB_SLAM.modulemap; sourceTree = "<group>"; };
 		41297C7D7CC8047246FF76A647BA2283 /* Pods-ORB_SLAM_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORB_SLAM_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		52CD174812C5F2EC056D9D2B623F88FE /* Pods-ORB_SLAM_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORB_SLAM_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		69FC5DAFA54CA2E50504ED0A99DC5587 /* Pods-ORB_SLAM_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORB_SLAM_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		78A8B90C009304548521BA22E0BC9EA1 /* ORB_SLAM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ORB_SLAM-dummy.m"; sourceTree = "<group>"; };
+		7B2F352A5488B24CC8F9F7B48424F068 /* ORB_SLAM-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORB_SLAM-prefix.pch"; sourceTree = "<group>"; };
 		7BCD08885F3AF33AF7EEF6BEEFD056BC /* Pods-ORB_SLAM_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORB_SLAM_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7DF3D46F60008E4757E9066E42A25603 /* Pods-ORB_SLAM_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ORB_SLAM_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		82C75F0783C7900F38003E4B124D3DF5 /* ORB_SLAM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORB_SLAM-umbrella.h"; sourceTree = "<group>"; };
 		8A669320A8EB92E654E30A29CE810022 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C3C85382CE4A3C8E27895759AF0068E /* Pods-ORB_SLAM_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ORB_SLAM_Example-dummy.m"; sourceTree = "<group>"; };
-		90BA5E99E7F8BE10FAC9559595BB354E /* Pods-ORB_SLAM_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ORB_SLAM_Example.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		90BA5E99E7F8BE10FAC9559595BB354E /* Pods-ORB_SLAM_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ORB_SLAM_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		944BF2096BB822871C0315240144F6C5 /* Pods-ORB_SLAM_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ORB_SLAM_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		994BCB2D3E98551AC1705A867082B89F /* ORB_SLAM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ORB_SLAM.modulemap; sourceTree = "<group>"; };
-		A24B70C081DBC319877ADE9F65E01523 /* Pods-ORB_SLAM_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ORB_SLAM_Tests.modulemap"; sourceTree = "<group>"; };
+		A24B70C081DBC319877ADE9F65E01523 /* Pods-ORB_SLAM_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ORB_SLAM_Tests.modulemap"; sourceTree = "<group>"; };
 		A557FC6E00A90D22FE81231D3237370F /* Pods-ORB_SLAM_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ORB_SLAM_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A958DC522706465F0FEE25E27C91E05E /* ORB_SLAM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ORB_SLAM.framework; path = ORB_SLAM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD89B679CDFCB3C325582864DB0C3166 /* ORB_SLAM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ORB_SLAM-dummy.m"; sourceTree = "<group>"; };
+		A958DC522706465F0FEE25E27C91E05E /* ORB_SLAM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ORB_SLAM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F27CA1D822ECB4394FC00E5097498D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFD9245FA01460DEFA00BDBCD656FD41 /* Pods-ORB_SLAM_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ORB_SLAM_Example-umbrella.h"; sourceTree = "<group>"; };
 		D99EB55C3D135191B5C85F8E41E0B0AF /* Pods-ORB_SLAM_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ORB_SLAM_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E80A6958BE533D50C4322F83559B0595 /* ORB_SLAM-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORB_SLAM-prefix.pch"; sourceTree = "<group>"; };
-		EAECAF9253BE7B0F19640480C61C7ED2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C8A0DBEB9C5051D66A9597CB89F38E /* ORB_SLAM.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ORB_SLAM.xcconfig; sourceTree = "<group>"; };
+		E9D3DE6EA9E4A7746E16777BDF30753F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC039F66223A99A44FEE163E863304D0 /* Pods-ORB_SLAM_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ORB_SLAM_Tests-dummy.m"; sourceTree = "<group>"; };
 		ED9629B25A57731E1E6574CF688C5D6A /* Pods-ORB_SLAM_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ORB_SLAM_Example-frameworks.sh"; sourceTree = "<group>"; };
-		EF2568560BC0B6EF19524C29615AF730 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		F38299647B81C6060390BF39FA8D2A3E /* ORB_SLAM.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ORB_SLAM.xcconfig; sourceTree = "<group>"; };
-		F66CCD1F11B127EEB9430F60FD17ABC7 /* ORB_SLAM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORB_SLAM-umbrella.h"; sourceTree = "<group>"; };
+		F05B782135307687AFA03E7B0FA0493B /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		FADFB408DB0F2D6519668AF69BB2A7D9 /* OpenCVWrapper.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+		FB302E1799DD0F1A954F378392232A44 /* OpenCVWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +76,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53949768EDE7CDBD79531936A1E075A2 /* Frameworks */ = {
+		44F054677E41BA8D1993BD748439AFDF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE4C42FE5C4348809033733E5BECB9AA /* Foundation.framework in Frameworks */,
+				6B8119C2E3A9F63D087C9D5541F882AF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,35 +95,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3E11E68AF31F85838A38FB3E7D136AB5 /* Classes */ = {
+		2270B73DB8D01571948D8D9C81D4A2D9 /* ORB_SLAM */ = {
 			isa = PBXGroup;
 			children = (
-				EF2568560BC0B6EF19524C29615AF730 /* ReplaceMe.m */,
+				F015C3848925AAC539A6517A40499542 /* Classes */,
 			);
-			name = Classes;
-			path = Classes;
+			path = ORB_SLAM;
 			sourceTree = "<group>";
 		};
-		49F2E617C32F4AC17DCBAA750E28D6B1 /* Support Files */ = {
+		26969E423B6C39DC62D1D34E918B200C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EAECAF9253BE7B0F19640480C61C7ED2 /* Info.plist */,
-				994BCB2D3E98551AC1705A867082B89F /* ORB_SLAM.modulemap */,
-				F38299647B81C6060390BF39FA8D2A3E /* ORB_SLAM.xcconfig */,
-				AD89B679CDFCB3C325582864DB0C3166 /* ORB_SLAM-dummy.m */,
-				E80A6958BE533D50C4322F83559B0595 /* ORB_SLAM-prefix.pch */,
-				F66CCD1F11B127EEB9430F60FD17ABC7 /* ORB_SLAM-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ORB_SLAM";
-			sourceTree = "<group>";
-		};
-		61FC56FC2B51F8CB187E8DBC1E0EC294 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EFAB208E5C409069E04E3F891C07258C /* ORB_SLAM */,
+				B9F5034B0DDDA29776A78653C32486A0 /* ORB_SLAM */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4133C34CF20CA0D3B2D5ADFF5119E10C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F05B782135307687AFA03E7B0FA0493B /* opencv2.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		71A96C4B019A4B5F207291FAAEB2DFE9 /* Pods-ORB_SLAM_Example */ = {
@@ -145,20 +141,36 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				61FC56FC2B51F8CB187E8DBC1E0EC294 /* Development Pods */,
+				26969E423B6C39DC62D1D34E918B200C /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				D267BB73A3FF9116101C96F5AA8F80FA /* Products */,
 				DEF41F8E393976855AA56D0593AEDC0E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		ABC22D6460D0D107F30E816E90FEFE3F /* ORB_SLAM */ = {
+		B961CBB2B679A24AF6EC15B8E5C3990C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3E11E68AF31F85838A38FB3E7D136AB5 /* Classes */,
+				E9D3DE6EA9E4A7746E16777BDF30753F /* Info.plist */,
+				2F47B7A43FED36FEA76B3E6DE8DF9691 /* ORB_SLAM.modulemap */,
+				D9C8A0DBEB9C5051D66A9597CB89F38E /* ORB_SLAM.xcconfig */,
+				78A8B90C009304548521BA22E0BC9EA1 /* ORB_SLAM-dummy.m */,
+				7B2F352A5488B24CC8F9F7B48424F068 /* ORB_SLAM-prefix.pch */,
+				82C75F0783C7900F38003E4B124D3DF5 /* ORB_SLAM-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ORB_SLAM";
+			sourceTree = "<group>";
+		};
+		B9F5034B0DDDA29776A78653C32486A0 /* ORB_SLAM */ = {
+			isa = PBXGroup;
+			children = (
+				4133C34CF20CA0D3B2D5ADFF5119E10C /* Frameworks */,
+				2270B73DB8D01571948D8D9C81D4A2D9 /* ORB_SLAM */,
+				B961CBB2B679A24AF6EC15B8E5C3990C /* Support Files */,
 			);
 			name = ORB_SLAM;
-			path = ORB_SLAM;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -214,14 +226,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		EFAB208E5C409069E04E3F891C07258C /* ORB_SLAM */ = {
+		F015C3848925AAC539A6517A40499542 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				ABC22D6460D0D107F30E816E90FEFE3F /* ORB_SLAM */,
-				49F2E617C32F4AC17DCBAA750E28D6B1 /* Support Files */,
+				FB302E1799DD0F1A954F378392232A44 /* OpenCVWrapper.h */,
+				FADFB408DB0F2D6519668AF69BB2A7D9 /* OpenCVWrapper.mm */,
 			);
-			name = ORB_SLAM;
-			path = ../..;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,17 +254,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1A917F6795B8A94D4B23B2DC6F79E78 /* Headers */ = {
+		D6D53A476D52283E8F2CF9E82663D428 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96F698B41CA2DC55500FB14AA39567CC /* ORB_SLAM-umbrella.h in Headers */,
+				F04CE20775ACB142656771D1FCD8195F /* OpenCVWrapper.h in Headers */,
+				851712577E26CA39A2161CC42736415C /* ORB_SLAM-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0338E71DD90ADC70E7B9229A5AAEEFDB /* ORB_SLAM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB615C0F0D23CDB9915EE147DD5A5C9E /* Build configuration list for PBXNativeTarget "ORB_SLAM" */;
+			buildPhases = (
+				6F6E474D1EDEC48B005A6BF3 /* ShellScript */,
+				5750962F1639FC04D23DC71AFB1C4D1E /* Sources */,
+				44F054677E41BA8D1993BD748439AFDF /* Frameworks */,
+				D6D53A476D52283E8F2CF9E82663D428 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ORB_SLAM;
+			productName = ORB_SLAM;
+			productReference = A958DC522706465F0FEE25E27C91E05E /* ORB_SLAM.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		277C1FDD68EF6070840C6F5D992CDE66 /* Pods-ORB_SLAM_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F358BAB1ED4FFF9ACBCB443295ED005D /* Build configuration list for PBXNativeTarget "Pods-ORB_SLAM_Example" */;
@@ -289,23 +319,6 @@
 			productReference = 267AC8D703FC336EAAF756EE0BD536C9 /* Pods_ORB_SLAM_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E2FB7901A4F08C05D2B8139941651357 /* ORB_SLAM */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7C86FFA4FD5403DCEB07E383909A03D5 /* Build configuration list for PBXNativeTarget "ORB_SLAM" */;
-			buildPhases = (
-				EBA4B19AD29C6E73866649F55D98C38D /* Sources */,
-				53949768EDE7CDBD79531936A1E075A2 /* Frameworks */,
-				A1A917F6795B8A94D4B23B2DC6F79E78 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ORB_SLAM;
-			productName = ORB_SLAM;
-			productReference = A958DC522706465F0FEE25E27C91E05E /* ORB_SLAM.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -327,12 +340,28 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E2FB7901A4F08C05D2B8139941651357 /* ORB_SLAM */,
+				0338E71DD90ADC70E7B9229A5AAEEFDB /* ORB_SLAM */,
 				277C1FDD68EF6070840C6F5D992CDE66 /* Pods-ORB_SLAM_Example */,
 				286C4AECD14D02BE13099F13EA3D9935 /* Pods-ORB_SLAM_Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F6E474D1EDEC48B005A6BF3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ ! -f ${SRCROOT}/../../opencv2.framework/Versions/Current/opencv2 ]; then\n  echo \"Downloading opencv. This might take a while\"\n  wget \"https://s3-us-west-1.amazonaws.com/amazonian-pandas/opencv2\" -P ${SRCROOT}/../../opencv2.framework/Versions/Current\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		53DED2C69B7D5B856CDADCE8B7C8C131 /* Sources */ = {
@@ -340,6 +369,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				658397DFC5AA9F861BB4BB14F757BFF3 /* Pods-ORB_SLAM_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5750962F1639FC04D23DC71AFB1C4D1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C49A1155C1587D55957DA254DBB6F2 /* OpenCVWrapper.mm in Sources */,
+				A88CFFAF872D5E41C14219873044EFB1 /* ORB_SLAM-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,59 +389,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBA4B19AD29C6E73866649F55D98C38D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3204A37CEADC184068260EA77DCD2FE3 /* ORB_SLAM-dummy.m in Sources */,
-				F21C8903D958F3C51CDA39A5D3F3BEB3 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		246DA639B9CD72868A9F8CDF4AAC6786 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ORB_SLAM;
-			target = E2FB7901A4F08C05D2B8139941651357 /* ORB_SLAM */;
+			target = 0338E71DD90ADC70E7B9229A5AAEEFDB /* ORB_SLAM */;
 			targetProxy = A1EAB7926DE3DC6D77AD29BECDD1D1D9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		203C61DAFD906D0FCE7AFB6E254127B8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F38299647B81C6060390BF39FA8D2A3E /* ORB_SLAM.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ORB_SLAM/ORB_SLAM-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ORB_SLAM/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ORB_SLAM/ORB_SLAM.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ORB_SLAM;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -532,6 +529,39 @@
 			};
 			name = Release;
 		};
+		93E10BFC6F13B27EB04DE3279E8E8103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C8A0DBEB9C5051D66A9597CB89F38E /* ORB_SLAM.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ORB_SLAM/ORB_SLAM-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ORB_SLAM/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ORB_SLAM/ORB_SLAM.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ORB_SLAM;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		A225B8BC9C42E3017EC76719B1D2E32A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7BCD08885F3AF33AF7EEF6BEEFD056BC /* Pods-ORB_SLAM_Example.release.xcconfig */;
@@ -604,6 +634,39 @@
 			};
 			name = Release;
 		};
+		B1FC01E6D249BB7F03480C58BEC2D839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C8A0DBEB9C5051D66A9597CB89F38E /* ORB_SLAM.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ORB_SLAM/ORB_SLAM-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ORB_SLAM/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ORB_SLAM/ORB_SLAM.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ORB_SLAM;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B657545DCB687B85DEBFB9B1690C28BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 69FC5DAFA54CA2E50504ED0A99DC5587 /* Pods-ORB_SLAM_Tests.debug.xcconfig */;
@@ -640,38 +703,6 @@
 			};
 			name = Debug;
 		};
-		BF1885408D9C4BB65EFF32A2EBC5F0B2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F38299647B81C6060390BF39FA8D2A3E /* ORB_SLAM.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ORB_SLAM/ORB_SLAM-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ORB_SLAM/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ORB_SLAM/ORB_SLAM.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ORB_SLAM;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -684,11 +715,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C86FFA4FD5403DCEB07E383909A03D5 /* Build configuration list for PBXNativeTarget "ORB_SLAM" */ = {
+		BB615C0F0D23CDB9915EE147DD5A5C9E /* Build configuration list for PBXNativeTarget "ORB_SLAM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				203C61DAFD906D0FCE7AFB6E254127B8 /* Debug */,
-				BF1885408D9C4BB65EFF32A2EBC5F0B2 /* Release */,
+				93E10BFC6F13B27EB04DE3279E8E8103 /* Debug */,
+				B1FC01E6D249BB7F03480C58BEC2D839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

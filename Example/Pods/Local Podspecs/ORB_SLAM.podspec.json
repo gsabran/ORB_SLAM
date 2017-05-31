@@ -18,5 +18,16 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ORB_SLAM/Classes/**/*"
+  "source_files": [
+    "ORB_SLAM/Classes/**/*",
+    "opencv2.framework/Headers/**/*"
+  ],
+  "ios": {
+    "vendored_frameworks": "opencv2.framework",
+    "public_header_files": [
+      "ORB_SLAM/Classes/**/*.h",
+      "opencv2.framework/Headers/**/*.h",
+      "opencv2.framework/Headers/**/*.hpp"
+    ]
+  }
 }

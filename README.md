@@ -13,6 +13,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+```bash
+# include opencv
+wget "https://s3-us-west-1.amazonaws.com/amazonian-pandas/opencv2" -P opencv2.framework/Versions/Current
+```
+
 ORB_SLAM is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 

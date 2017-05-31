@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "OpenCVWrapper.h"
 
 FOUNDATION_EXPORT double ORB_SLAMVersionNumber;
 FOUNDATION_EXPORT const unsigned char ORB_SLAMVersionString[];

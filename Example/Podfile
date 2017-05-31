@@ -1,7 +1,8 @@
 use_frameworks!
 
 target 'ORB_SLAM_Example' do
-  pod 'ORB_SLAM', :path => '../'
+  pod 'ORB_SLAM', :path => '../'#, :inhibit_warnings => true
+  
 
   target 'ORB_SLAM_Tests' do
     inherit! :search_paths
