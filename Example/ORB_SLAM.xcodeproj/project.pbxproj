@@ -11,9 +11,6 @@
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
-		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* OrbSlamAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* OrbSlamAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* OrbSlamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* OrbSlamViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -21,6 +18,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		6C6DBE86A1121C9B955476C9 /* Pods_ORB_SLAM_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FAA5319309BAB2E9AFE26E4 /* Pods_ORB_SLAM_Tests.framework */; };
+		6F6E473E1EDE9ABE005A6BF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E473D1EDE9ABE005A6BF3 /* ViewController.swift */; };
+		6F6E47401EDE9B7F005A6BF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E473F1EDE9B7F005A6BF3 /* AppDelegate.swift */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		96E1F9548562F12F3CC8F592 /* Pods_ORB_SLAM_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B101FDF30F4A977F75A0B2AF /* Pods_ORB_SLAM_Example.framework */; };
@@ -44,12 +43,7 @@
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6003F595195388D20070C39A /* ORB_SLAM-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ORB_SLAM-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* ORB_SLAM-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ORB_SLAM-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* OrbSlamAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrbSlamAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* OrbSlamAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrbSlamAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* OrbSlamViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrbSlamViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* OrbSlamViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrbSlamViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* ORB_SLAM_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ORB_SLAM_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -57,15 +51,18 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6F6E473C1EDE9ABE005A6BF3 /* ORB_SLAM_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ORB_SLAM_Example-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		6F6E473D1EDE9ABE005A6BF3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		6F6E473F1EDE9B7F005A6BF3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		6F6F80C79FAEB0F9485ACD0F /* Pods-ORB_SLAM_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORB_SLAM_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ORB_SLAM_Example/Pods-ORB_SLAM_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6FAA5319309BAB2E9AFE26E4 /* Pods_ORB_SLAM_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORB_SLAM_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		987E8828272FF1813141D3A8 /* Pods-ORB_SLAM_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORB_SLAM_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ORB_SLAM_Tests/Pods-ORB_SLAM_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B101FDF30F4A977F75A0B2AF /* Pods_ORB_SLAM_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORB_SLAM_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1C25E3A6B04C12D447D9AB9 /* ORB_SLAM.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ORB_SLAM.podspec; path = ../ORB_SLAM.podspec; sourceTree = "<group>"; };
-		C6CAB9C1F8F91E6CDBE5AC10 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C70938974CC1BF1267124B88 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B1C25E3A6B04C12D447D9AB9 /* ORB_SLAM.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ORB_SLAM.podspec; path = ../ORB_SLAM.podspec; sourceTree = "<group>"; };
+		C6CAB9C1F8F91E6CDBE5AC10 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C70938974CC1BF1267124B88 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CBB66D0E6B6FC15AADD6E713 /* Pods-ORB_SLAM_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORB_SLAM_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ORB_SLAM_Example/Pods-ORB_SLAM_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,13 +129,12 @@
 		6003F593195388D20070C39A /* Example for ORB_SLAM */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* OrbSlamAppDelegate.h */,
-				6003F59D195388D20070C39A /* OrbSlamAppDelegate.m */,
+				6F6E473F1EDE9B7F005A6BF3 /* AppDelegate.swift */,
+				6F6E473D1EDE9ABE005A6BF3 /* ViewController.swift */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* OrbSlamViewController.h */,
-				6003F5A6195388D20070C39A /* OrbSlamViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
+				6F6E473C1EDE9ABE005A6BF3 /* ORB_SLAM_Example-Bridging-Header.h */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for ORB_SLAM";
@@ -150,7 +146,6 @@
 			children = (
 				6003F595195388D20070C39A /* ORB_SLAM-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
-				6003F599195388D20070C39A /* main.m */,
 				6003F59B195388D20070C39A /* ORB_SLAM-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -250,6 +245,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "sabranguillaume@gmail.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						LastSwiftMigration = 0830;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -394,9 +392,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* OrbSlamAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* OrbSlamViewController.m in Sources */,
-				6003F59A195388D20070C39A /* main.m in Sources */,
+				6F6E47401EDE9B7F005A6BF3 /* AppDelegate.swift in Sources */,
+				6F6E473E1EDE9ABE005A6BF3 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,12 +521,17 @@
 			baseConfigurationReference = CBB66D0E6B6FC15AADD6E713 /* Pods-ORB_SLAM_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ORB_SLAM/ORB_SLAM-Prefix.pch";
 				INFOPLIST_FILE = "ORB_SLAM/ORB_SLAM-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ORB_SLAM_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -539,12 +541,16 @@
 			baseConfigurationReference = 6F6F80C79FAEB0F9485ACD0F /* Pods-ORB_SLAM_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ORB_SLAM/ORB_SLAM-Prefix.pch";
 				INFOPLIST_FILE = "ORB_SLAM/ORB_SLAM-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ORB_SLAM_Example-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -553,6 +559,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 987E8828272FF1813141D3A8 /* Pods-ORB_SLAM_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -577,6 +584,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 586FEA7E6B96757C06EA425F /* Pods-ORB_SLAM_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

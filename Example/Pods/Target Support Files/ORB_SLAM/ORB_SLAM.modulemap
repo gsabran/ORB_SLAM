@@ -1,0 +1,6 @@
+framework module ORB_SLAM {
+  umbrella header "ORB_SLAM-umbrella.h"
+
+  export *
+  module * { export * }
+}
