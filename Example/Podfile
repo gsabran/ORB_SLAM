@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ORB_SLAM_Example' do
+  pod 'ORB_SLAM', :path => '../'
+
+  target 'ORB_SLAM_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
